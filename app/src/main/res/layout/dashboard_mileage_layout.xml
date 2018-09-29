@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/mileage_tenThousands"
+        android:layout_width="39px"
+        android:layout_height="56px"
+        android:src="@drawable/smallnumber"/>
+
+    <ImageView
+        android:id="@+id/mileage_thousands"
+        android:layout_width="39px"
+        android:layout_height="56px"
+        android:layout_marginLeft="8px"
+        android:src="@drawable/smallnumber"/>
+
+    <ImageView
+        android:id="@+id/mileage_hundreds"
+        android:layout_width="39px"
+        android:layout_height="56px"
+        android:layout_marginLeft="8px"
+        android:src="@drawable/smallnumber"/>
+
+    <ImageView
+        android:id="@+id/mileage_tens"
+        android:layout_width="39px"
+        android:layout_height="56px"
+        android:layout_marginLeft="8px"
+        android:src="@drawable/smallnumber"/>
+
+    <ImageView
+        android:id="@+id/mileage_ones"
+        android:layout_width="39px"
+        android:layout_height="56px"
+        android:layout_marginLeft="8px"
+        android:src="@drawable/smallnumber"/>
+
+    <ImageView
+        android:layout_width="22px"
+        android:layout_height="56px"
+        android:layout_marginLeft="2px"
+        android:src="@drawable/point"/>
+
+    <ImageView
+        android:id="@+id/mileage_hundred"
+        android:layout_width="39px"
+        android:layout_height="56px"
+        android:layout_marginLeft="2px"
+        android:src="@drawable/smallnumber"/>
+
+</LinearLayout>

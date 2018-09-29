@@ -1,0 +1,41 @@
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/time0"
+        android:maxLevel="0"/>
+
+    <item
+        android:drawable="@drawable/time1"
+        android:maxLevel="1"/>
+
+    <item
+        android:drawable="@drawable/time2"
+        android:maxLevel="2"/>
+
+    <item
+        android:drawable="@drawable/time3"
+        android:maxLevel="3"/>
+
+    <item
+        android:drawable="@drawable/time4"
+        android:maxLevel="4"/>
+
+    <item
+        android:drawable="@drawable/time5"
+        android:maxLevel="5"/>
+
+    <item
+        android:drawable="@drawable/time6"
+        android:maxLevel="6"/>
+
+    <item
+        android:drawable="@drawable/time7"
+        android:maxLevel="7"/>
+
+    <item
+        android:drawable="@drawable/time8"
+        android:maxLevel="8"/>
+
+    <item
+        android:drawable="@drawable/time9"
+        android:maxLevel="9"/>
+</level-list>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/leftArrow"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="94px"
+        android:layout_marginTop="29px"
+        android:src="@drawable/left_arrow" />
+
+    <ImageView
+        android:id="@+id/rightArrow"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="94px"
+        android:layout_marginTop="29px"
+        android:src="@drawable/right_arrow" />
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="50px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="286px"
+        android:src="@drawable/bluetooth_close"/>
+
+    <ImageView
+        android:layout_width="60px"
+        android:layout_height="50px"
+        android:layout_marginLeft="167px"
+        android:layout_marginTop="286px"
+        android:src="@drawable/mp3_open"/>
+
+    <TextView
+        android:id="@+id/music_name"
+        android:layout_width="240px"
+        android:layout_height="40px"
+        android:layout_marginLeft="95px"
+        android:layout_marginTop="361px"
+        android:textColor="@color/color_light"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:singleLine="true"/>
+    
+    <ImageView
+        android:id="@+id/speed_tens"
+        android:layout_width="169px"
+        android:layout_height="232px"
+        android:layout_marginLeft="551px"
+        android:layout_marginTop="58px"
+        android:src="@drawable/bignumber"/>
+    
+    <ImageView
+        android:id="@+id/speed_units"
+        android:layout_width="169px"
+        android:layout_height="232px"
+        android:layout_marginLeft="720px"
+        android:layout_marginTop="58px"
+        android:src="@drawable/bignumber"/>
+    
+    <ImageView
+        android:id="@+id/odo"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="1080px"
+        android:layout_marginTop="300px"
+        android:src="@drawable/odo"
+        android:onClick="onClickOdo"/>
+    
+    <ImageView
+        android:id="@+id/trip"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="1200px"
+        android:layout_marginTop="300px"
+        android:src="@drawable/trip"
+        android:onClick="onClickTrip"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290px"
+        android:layout_marginLeft="672px"
+        android:text="km/h"
+        android:textSize="25dp"
+        android:textColor="@color/color_light"/>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_marginLeft="112px"
+        android:layout_marginTop="391px"
+        layout="@layout/dashboard_volume_layout" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="640px"
+        android:layout_marginTop="365px"
+        layout="@layout/dashboard_time_layout" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1046px"
+        android:layout_marginTop="395px"
+        layout="@layout/dashboard_mileage_layout" />
+</RelativeLayout>

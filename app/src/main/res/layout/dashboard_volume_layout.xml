@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/volume1"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume1"/>
+
+    <ImageView
+        android:id="@+id/volume2"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:layout_marginLeft="4px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume2"/>
+
+    <ImageView
+        android:id="@+id/volume3"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:layout_marginLeft="4px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume3"
+        />
+
+    <ImageView
+        android:id="@+id/volume4"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:layout_marginLeft="5px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume4"
+        />
+
+    <ImageView
+        android:id="@+id/volume5"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:layout_marginLeft="4px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume5"
+        />
+
+    <ImageView
+        android:id="@+id/volume6"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:layout_marginLeft="5px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume6"
+        />
+
+    <ImageView
+        android:id="@+id/volume7"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:layout_marginLeft="4px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume7"
+        />
+
+    <ImageView
+        android:id="@+id/volume8"
+        android:layout_width="29px"
+        android:layout_height="100px"
+        android:layout_marginLeft="5px"
+        android:src="@drawable/volume"
+        android:onClick="onClickVolume8"
+        />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/batteryFailure"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/battery_failure"/>
+
+    <ImageView
+        android:id="@+id/controller"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/controller_fault"/>
+
+    <ImageView
+        android:id="@+id/motor"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/motor_fault"/>
+
+    <ImageView
+        android:id="@+id/faultCode"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/fault_code"/>
+
+    <ImageView
+        android:id="@+id/malfunction"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/malfunction"/>
+
+    <ImageView
+        android:id="@+id/parkingLight"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/parking_light"/>
+
+    <ImageView
+        android:id="@+id/headlampMode"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/headlamp_mode"/>
+
+    <ImageView
+        android:id="@+id/highBeam"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/high_beam"/>
+
+    <ImageView
+        android:id="@+id/cruiseControl"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/cruise_control"/>
+
+    <ImageView
+        android:id="@+id/gprsStrong"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/gprs_no"/>
+
+    <ImageView
+        android:id="@+id/gpsStrong"
+        android:layout_width="120px"
+        android:layout_weight="1"
+        android:layout_height="85px"
+        android:src="@drawable/gps_no"/>
+
+</LinearLayout>

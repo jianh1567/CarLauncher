@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/hour_tens"
+        android:layout_width="26px"
+        android:layout_height="50px"
+        android:src="@drawable/timenumber"/>
+
+    <ImageView
+        android:id="@+id/hour_units"
+        android:layout_width="26px"
+        android:layout_height="50px"
+        android:layout_marginLeft="4px"
+        android:src="@drawable/timenumber"/>
+    
+    <ImageView
+        android:layout_width="13px"
+        android:layout_height="50px"
+        android:layout_marginLeft="2px"
+        android:src="@drawable/colon"/>
+
+    <ImageView
+        android:id="@+id/minute_tens"
+        android:layout_width="26px"
+        android:layout_height="50px"
+        android:layout_marginLeft="2px"
+        android:src="@drawable/timenumber"/>
+
+    <ImageView
+        android:id="@+id/minute_units"
+        android:layout_width="26px"
+        android:layout_height="50px"
+        android:layout_marginLeft="4px"
+        android:src="@drawable/timenumber"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/am_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="am"
+            android:textColor="@color/color_blue"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/pm_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pm"
+            android:textSize="10dp"
+            android:textColor="@color/color_blue"
+            android:textStyle="bold"
+            android:includeFontPadding="false"/>
+    </LinearLayout>
+
+</LinearLayout>
